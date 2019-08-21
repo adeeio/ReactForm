@@ -67,22 +67,28 @@ body {
     width: 60px;
 }
 
-.contactLabel, .contactEmail {
+.contactLabel {
     align-items: center;
     display: flex;
     margin: 0 5px 0 5px;
-    white-space: wrap;
     font-size: 1.1em;
 }
 
-.contactLabel {
-    width: 100px;
+.labelName {
+    width: 50px;
+}
+
+.labelSurname {
+    width: 70px;
 }
 
 .contactEmail {
+    display: flex;
+    align-items: center;
     width: 200px;
     font-size: 15px;
-    color: gray;
+    margin: 0 15px;
+    color: rgb(92, 71, 71);
     text-decoration: none;
     &:hover {
         color: blue;
