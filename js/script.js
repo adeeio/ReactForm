@@ -1,4 +1,4 @@
-'use strict';
+
 
 var app = React.createElement(App);
-ReactDom.render(app, document.getElementById('app'));
+ReactDOM.render(app, document.getElementById('app'));
