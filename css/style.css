@@ -1,98 +1,27 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
 
-body {
-  background: #f5f5f5;
-  display: flex;
-  justify-content: center;
-}
+body { background: #f5f5f5; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
 
-#app {
-  margin-top: 20px;
-  width: 500px;
-  background: lightblue;
-}
+#app { margin-top: 20px; width: 500px; background: lightblue; }
 
-.contactForm {
-  margin: 10px;
-  padding: 35px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+.contactForm { margin: 10px; padding: 35px; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
 
-.inputName, .inputSurname, .inputEmail {
-  height: 33px;
-  width: 325px;
-  margin-top: 5px;
-  border: 1px 2px solid gray;
-}
+.inputName, .inputSurname, .inputEmail { height: 33px; width: 325px; margin-top: 5px; border: 1px 2px solid gray; }
 
-.contactBtn {
-  height: 60px;
-  width: 133px;
-  margin-top: 10px;
-  border-radius: 4px;
-  background: #6BB0EA;
-  border-color: #6BB0EA;
-  color: #232F34;
-  font-weight: 700;
-  font-size: 1em;
-}
+.contactBtn { height: 60px; width: 133px; margin-top: 10px; border-radius: 4px; background: #6BB0EA; border-color: #6BB0EA; color: #232F34; font-weight: 700; font-size: 1em; }
 
-.contactList {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-}
+.contactList { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; margin-bottom: 10px; }
 
-.contactItem {
-  display: flex;
-  margin: 5px;
-  flex: 1;
-  align-items: space-around;
-}
+.contactItem { display: -ms-flexbox; display: flex; margin: 5px; -ms-flex: 1; flex: 1; -ms-flex-align: space-around; align-items: space-around; }
 
-.contactImage {
-  height: 60px;
-  width: 60px;
-}
+.contactImage { height: 60px; width: 60px; }
 
-.contactLabel {
-  align-items: center;
-  display: flex;
-  margin: 0 5px 0 5px;
-  font-size: 1.1em;
-}
+.contactLabel { -ms-flex-align: center; align-items: center; display: -ms-flexbox; display: flex; margin: 0 5px 0 5px; font-size: 1.1em; }
 
-.labelName {
-  width: 50px;
-}
+.labelName { width: 50px; }
 
-.labelSurname {
-  width: 70px;
-}
+.labelSurname { width: 70px; }
 
-.contactEmail {
-  display: flex;
-  align-items: center;
-  width: 200px;
-  font-size: 15px;
-  margin: 0 15px;
-  color: #5c4747;
-  text-decoration: none;
-}
+.contactEmail { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; width: 200px; font-size: 15px; margin: 0 15px; color: #5c4747; text-decoration: none; }
 
-.contactEmail:hover {
-  color: blue;
-  transition: 0.4s;
-}
-
-/*# sourceMappingURL=style.css.map */
+.contactEmail:hover { color: blue; transition: 0.4s; }

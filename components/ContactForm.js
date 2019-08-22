@@ -11,21 +11,21 @@ var ContactForm = React.createClass({
                     className: 'inputName',
                     type: 'text',
                     placeholder: 'Imie',
-                    value: this.props.contact.firstName,
+                    defaultValue: this.props.contact.firstName,
                 }),
                 React.createElement('input', {
                     className: 'inputSurname',
                     type: 'text',
                     placeholder: 'Nazwisko',
-                    value: this.props.contact.lastName,
+                    defaultValue: this.props.contact.lastName,
                 }),
                 React.createElement('input', {
                     className: 'inputEmail',
                     type: 'email',
                     placeholder: 'Email',
-                    value: this.props.contact.email,
+                    defaultValue: this.props.contact.email,
                 }),
-                React.createElement('button', { type: 'submit', className: 'contactBtn' }, "Add Contact")
+                React.createElement('button', { type: 'submit', className: 'contactBtn'}, "Add Contact")
             )
         )
     },
